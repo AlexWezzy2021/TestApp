@@ -8,6 +8,5 @@ import com.bumptech.glide.module.AppGlideModule
  * java.karpenko@gmail.com
  */
 
-
 @GlideModule
 class MyGlideModule : AppGlideModule()

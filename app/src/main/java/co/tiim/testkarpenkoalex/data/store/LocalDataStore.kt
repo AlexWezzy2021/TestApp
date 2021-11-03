@@ -17,7 +17,6 @@ class LocalDataStore @Inject constructor(@ApplicationContext context: Context) {
 
     var profile by StringPreference(preferences, PROFILE)
 
-
     private companion object {
         const val PROFILE = "Profile"
     }

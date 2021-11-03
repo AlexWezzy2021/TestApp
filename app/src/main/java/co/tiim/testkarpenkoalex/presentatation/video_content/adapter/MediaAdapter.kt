@@ -8,15 +8,17 @@ import co.tiim.testkarpenkoalex.common.widget.simpleItemCallback
 import co.tiim.testkarpenkoalex.data.entity.Video
 import co.tiim.testkarpenkoalex.domain.base.BaseViewHolder
 import com.bumptech.glide.Glide
-import kotlinx.android.synthetic.main.view_holder_video.*
 import kotlinx.android.synthetic.main.view_holder_video.view.*
-
 
 /**
  * Created by Alexander Karpenko on 02.11.2021.
  * java.karpenko@gmail.com
  */
-class MediaAdapter(val click: (Video) -> Unit, private val shareLink: (String) -> Unit, private val commentClick: () -> Unit) :
+class MediaAdapter(
+    val click: (Video) -> Unit,
+    private val shareLink: (String) -> Unit,
+    private val commentClick: () -> Unit
+) :
     ListAdapter<Video, MediaAdapter.ViewHolder>(simpleItemCallback()) {
 
 

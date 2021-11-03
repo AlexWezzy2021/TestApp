@@ -13,6 +13,10 @@ import com.bumptech.glide.load.resource.bitmap.CenterCrop
 import com.bumptech.glide.load.resource.bitmap.CircleCrop
 import kotlinx.android.synthetic.main.fragment_profile.*
 
+/**
+ * Created by Alexander Karpenko on 02.11.2021.
+ * java.karpenko@gmail.com
+ */
 
 class ProfileFragment : BaseFragment() {
 

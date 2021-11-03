@@ -8,6 +8,11 @@ import co.tiim.testkarpenkoalex.R
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.android.synthetic.main.activity_main.*
 
+/**
+ * Created by Alexander Karpenko on 02.11.2021.
+ * java.karpenko@gmail.com
+ */
+
 @AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
 

@@ -4,10 +4,12 @@ import co.tiim.testkarpenkoalex.domain.Result.Failure
 import co.tiim.testkarpenkoalex.domain.Result.Success
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.withContext
+
 /**
  * Created by Alexander Karpenko on 02.11.2021.
  * java.karpenko@gmail.com
  */
+
 open class BaseUseCase(
     private val dispatcher: CoroutineDispatcher,
 ) {

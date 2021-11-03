@@ -9,6 +9,11 @@ import co.tiim.testkarpenkoalex.R
 import co.tiim.testkarpenkoalex.presentatation.video_content.adapter.CommentsAdapter
 import kotlinx.android.synthetic.main.activity_comment.*
 
+/**
+ * Created by Alexander Karpenko on 02.11.2021.
+ * java.karpenko@gmail.com
+ */
+
 class CommentActivity : AppCompatActivity() {
 
     private val mediaAdapter = CommentsAdapter()

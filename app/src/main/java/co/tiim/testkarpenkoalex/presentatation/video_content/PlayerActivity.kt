@@ -19,12 +19,10 @@ import com.google.android.exoplayer2.upstream.DefaultHttpDataSource
 import com.google.android.exoplayer2.upstream.cache.CacheDataSource
 import kotlinx.android.synthetic.main.activity_player.*
 
-
 /**
  * Created by Alexander Karpenko on 02.11.2021.
  * java.karpenko@gmail.com
  */
-
 class PlayerActivity : AppCompatActivity() {
 
     private lateinit var player: SimpleExoPlayer

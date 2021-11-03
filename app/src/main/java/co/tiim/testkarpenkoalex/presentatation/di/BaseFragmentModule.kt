@@ -13,6 +13,7 @@ import kotlinx.coroutines.Dispatchers
  * Created by Alexander Karpenko on 02.11.2021.
  * java.karpenko@gmail.com
  */
+
 @Module
 @InstallIn(SingletonComponent::class)
 object BaseModule {

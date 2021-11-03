@@ -7,10 +7,6 @@ import com.google.gson.annotations.SerializedName
  * java.karpenko@gmail.com
  */
 
-data class VideoContent constructor(
-    val list: List<Video>
-)
-
 data class Video constructor(
     @SerializedName("video_description") val videoDescription: String,
     @SerializedName("video_path") val videoPath: String,

@@ -8,7 +8,6 @@ import co.tiim.testkarpenkoalex.data.entity.Video
 import co.tiim.testkarpenkoalex.domain.base.BaseViewHolder
 import kotlinx.android.synthetic.main.view_holder_comment.view.*
 
-
 /**
  * Created by Alexander Karpenko on 02.11.2021.
  * java.karpenko@gmail.com

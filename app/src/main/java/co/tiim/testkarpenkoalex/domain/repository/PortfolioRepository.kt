@@ -8,6 +8,7 @@ import javax.inject.Inject
  * Created by Alexander Karpenko on 02.11.2021.
  * java.karpenko@gmail.com
  */
+
 class ProfileRepository @Inject constructor(
     private val portfolioLocalStore: ProfileLocalStore,
 ) {

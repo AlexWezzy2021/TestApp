@@ -11,6 +11,7 @@ import javax.inject.Inject
  * Created by Alexander Karpenko on 02.11.2021.
  * java.karpenko@gmail.com
  */
+
 class ProfileLocalStore @Inject constructor(
     private val gson: Gson,
     @ApplicationContext private val context: Context,
@@ -30,6 +31,4 @@ class ProfileLocalStore @Inject constructor(
     fun saveProfile(profile: Profile) {
         localStore.profile = gson.toJson(profile)
     }
-
-
 }
